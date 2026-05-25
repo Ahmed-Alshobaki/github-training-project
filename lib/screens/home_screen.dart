@@ -27,7 +27,7 @@ class HomeScreen extends StatelessWidget {
                       style: TextStyle(color: Colors.grey[600], fontSize: 15, fontFamily: "Poppins"),
                     ),
                     const Text(
-                      "Rafatul-Islam",
+                      "Ahmed-Alshobaki",
                       style: TextStyle(
                         fontWeight: FontWeight.w900,
                         fontSize: 22,
