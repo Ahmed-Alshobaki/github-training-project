@@ -75,11 +75,11 @@ class RegisterScreen extends StatelessWidget {
                   Row(
                     children: const [
                       Expanded(
-                        child: MyInputTextField(hintText: "Full-Name", borderColor: Colors.orangeAccent,),
+                        child: MyInputTextField(hintText: "First Name", borderColor: Colors.orangeAccent,),
                       ),
                       SizedBox(width: 16),
                       Expanded(
-                        child: MyInputTextField(hintText: "Last-Name", borderColor: Colors.orangeAccent,),
+                        child: MyInputTextField(hintText: "Last Name", borderColor: Colors.orangeAccent,),
                       ),
                     ],
                   ),
