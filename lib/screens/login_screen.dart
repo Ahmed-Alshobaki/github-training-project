@@ -50,7 +50,7 @@ class LoginScreen extends StatelessWidget {
                         "Sign In",
                         style: TextStyle(
                           fontWeight: FontWeight.w900,
-                          fontSize: 24,
+                          fontSize: 26,
                           color: Colors.black,
                           fontFamily: "Poppins"
                         ),
