@@ -127,9 +127,9 @@ class RegisterScreen extends StatelessWidget {
                       ),
                     ],
                   ),
-                  const SizedBox(height: 16,),
+                  const SizedBox(height: 18,),
                   MyButton(
-                    text: "CREATE AN ACCOUNT",
+                    text: "CREATE ACCOUNT",
                     onPressed: () {
                       Navigator.pushReplacementNamed(context, '/login');
                     },
