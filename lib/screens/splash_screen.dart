@@ -12,7 +12,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     Future.delayed(const Duration(seconds: 3), () {
-        Navigator.pushReplacementNamed(context, '/onboarding');
+      Navigator.pushReplacementNamed(context, '/onboarding');
     });
     super.initState();
   }
@@ -20,13 +20,13 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFFFB800),
+      backgroundColor: const Color(0xFFFFA726),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.end,
           children: [
             SizedBox(
-              height: 180,
+              height: 190,
               child: Image.asset('assets/images/logo.png'),
             ),
             const SizedBox(height: 16),
@@ -36,10 +36,20 @@ class _SplashScreenState extends State<SplashScreen> {
                 color: Colors.white,
                 fontWeight: FontWeight.w900,
                 fontFamily: "Poppins",
-                fontSize: 40,
+                fontSize: 42,
               ),
             ),
-            SizedBox(height: 80,)
+            const SizedBox(height: 8),
+            const Text(
+              "Healthy food for every day",
+              style: TextStyle(
+                color: Colors.white,
+                fontWeight: FontWeight.w500,
+                fontFamily: "Poppins",
+                fontSize: 16,
+              ),
+            ),
+            const SizedBox(height: 80),
           ],
         ),
       ),
